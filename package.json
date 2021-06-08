@@ -1,0 +1,30 @@
+{
+  "name": "homestead-server",
+  "version": "1.0.0",
+  "description": "HomeSTEAD Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binemmanuel/homestead-server.git"
+  },
+  "keywords": [
+    "homestead"
+  ],
+  "author": "Bin Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binemmanuel/homestead-server/issues"
+  },
+  "homepage": "https://github.com/binemmanuel/homestead-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "random-int": "^3.0.0",
+    "unique-random": "^3.0.0"
+  }
+}
