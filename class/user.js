@@ -87,11 +87,11 @@ class User extends Database {
 					const user = result[i];
 					storedUserId = user.id;
 				}
-				console.log(`User ID from callback: ${storedUserId}`);
+				return storedUserId
 			}
 		);
 
-		return storedUserId;
+		
 	}
 }
 
